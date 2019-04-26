@@ -13,6 +13,12 @@
 			$suma=$n1-$n2;
 			return $suma;
 		}
+
+		public static function Multiplicacion($n1,$n2)
+		{
+			$suma=$n1*$n2;
+			return $suma;
+		}
 	}
 
 ?>
