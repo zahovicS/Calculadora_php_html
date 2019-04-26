@@ -21,22 +21,23 @@
 </html>
 
 <?php 
+	include("clases.php");
 	if (isset($_REQUEST['calcular'])) {
 		$n1=$_REQUEST['txtn1'];
 		$n2=$_REQUEST['txtn2'];
 		$op=$_REQUEST['opciones'];
 		
 		switch ($op) {
-			case 0:
+			case 0:Matematica::Sumar($n1,$n2);
 				
 				break;
-			case 1:
+			case 1:Matematica::Restar($n1,$n2);
 				
 				break;
-			case 2:
+			case 2:Matematica::Multiplicar($n1,$n2);
 				
 				break;
-			case 3:
+			case 3:Matematica::Dividir($n1,$n2);
 				
 				break;
 			default:
