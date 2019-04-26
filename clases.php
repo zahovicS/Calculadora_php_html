@@ -19,6 +19,12 @@
 			$suma=$n1*$n2;
 			return $suma;
 		}
+
+		public static function Division($n1,$n2)
+		{
+			$suma=$n1/$n2;
+			return $suma;
+		}
 	}
 
 ?>
