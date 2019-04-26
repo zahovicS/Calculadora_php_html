@@ -10,20 +10,20 @@
 
 		public static function Resta($n1,$n2)
 		{
-			$suma=$n1-$n2;
-			return $suma;
+			$resta=$n1-$n2;
+			return $resta;
 		}
 
 		public static function Multiplicacion($n1,$n2)
 		{
-			$suma=$n1*$n2;
-			return $suma;
+			$multiplicacion=$n1*$n2;
+			return $multiplicacion;
 		}
 
 		public static function Division($n1,$n2)
 		{
-			$suma=$n1/$n2;
-			return $suma;
+			$division=$n1/$n2;
+			return $division;
 		}
 	}
 
