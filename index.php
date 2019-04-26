@@ -28,13 +28,13 @@
 		$op=$_REQUEST['opciones'];
 		
 		switch ($op) {
-			case 0:echo "$n1 + $n2= ".Matematica::Sumar($n1,$n2);				
+			case 0:echo "La Operación: $n1 + $n2= ".Matematica::Sumar($n1,$n2);				
 				break;
-			case 1:echo "$n1 - $n2= ".Matematica::Resta($n1,$n2);				
+			case 1:echo "La Operación: $n1 - $n2= ".Matematica::Resta($n1,$n2);				
 				break;
-			case 2:echo "$n1 * $n2= ".Matematica::Multiplicacion($n1,$n2);
+			case 2:echo "La Operación: $n1 * $n2= ".Matematica::Multiplicacion($n1,$n2);
 				break;
-			case 3:echo "$n1 / $n2= ".Matematica::Division($n1,$n2);
+			case 3:echo "La Operación: $n1 / $n2= ".Matematica::Division($n1,$n2);
 				break;
 		}
 	}
